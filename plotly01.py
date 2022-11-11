@@ -1,18 +1,9 @@
 import streamlit as st               
 import seaborn as sns
 import pandas as pd 
-import plotly as px 
+import plotly.express as px 
 
 # import dataset
-import plotly.express as px
-
-
-# Creating the Figure instance
-fig = px.line(x=[1,2, 3], y=[1, 2, 3])
-
-# printing the figure instance
-print(fig)
-
 
 header = st.container()
 with header:
@@ -23,7 +14,7 @@ st.write(df)
 st.write(df.columns)
 
 #Summary stat
-st.wirte(df.describe())
+
 
 # Data Managment
 
