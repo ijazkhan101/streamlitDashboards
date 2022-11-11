@@ -1,0 +1,3 @@
+check all env >  conda en list 
+
+check >  conda activate streamlit_env
